@@ -1,7 +1,6 @@
 from PIL import Image
 import pytesseract
 import pyautogui
-import time
 
 pytesseract.pytesseract.tesseract_cmd = \
     r'C:\Users\iunth\AppData\Local\Programs\Tesseract-OCR\tesseract'
