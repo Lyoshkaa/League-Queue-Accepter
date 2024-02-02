@@ -3,7 +3,6 @@ import pytesseract
 import pyautogui
 import time
 
-accept = '\accept.jpg'
 pytesseract.pytesseract.tesseract_cmd = \
     r'C:\Users\iunth\AppData\Local\Programs\Tesseract-OCR\tesseract'
 
