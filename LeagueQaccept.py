@@ -18,7 +18,7 @@ while acceptWord != 'ACCEPT!':
     if 'ACCEPT!' in acceptWord:
         #acceptWord Prints out a lot of random text, but the word ACCEPT! is somewhere there, so it looks for the substring ACCEPT! there.
         
-        accept = pyautogui.locateOnScreen(accept,confidence=0.8)
+        accept = pyautogui.locateOnScreen('accept.jpg',confidence=0.8)
         #Locates where the ACCEPT! button is, provided the picture of what it looks like for the program to find.
         
         pyautogui.moveTo(accept)
