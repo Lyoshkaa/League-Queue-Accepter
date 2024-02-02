@@ -11,7 +11,7 @@ acceptWord = pytesseract.image_to_string(acceptImage) #Converts the previous pic
 print("Waiting for queue pop...")
 
 while acceptWord != 'ACCEPT!':
-    #while loop to keep looking constantly for the queue up, by the method used in line 10,11
+    #while loop to keep looking constantly for the queue pop, by the method used in line 10,11
     acceptImage = pyautogui.screenshot(region=(599,587,733,198))
     acceptWord = pytesseract.image_to_string(acceptImage)
     
